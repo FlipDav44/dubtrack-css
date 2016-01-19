@@ -1,0 +1,36 @@
+/* Color Names */
+ 
+#chat .chat-main .isOwner .username,
+#chat .chat-main .isOwner .username:hover,
+#chat .chat-main .isOwner .username:visited
+{
+    color: #8E0000 !important;
+}
+ 
+#chat .chat-main .isCo-owner .username,
+#chat .chat-main .isCo-owner .username:hover,
+#chat .chat-main .isCo-owner .username:visited
+{
+    color: #8E0000 !important;
+}
+ 
+#chat .chat-main .isManager .username,
+#chat .chat-main .isManager .username:hover,
+#chat .chat-main .isManager .username:visited
+{
+    color: #C11B17 !important;
+}
+ 
+#chat .chat-main .isMod .username,
+#chat .chat-main .isMod .username:hover,
+#chat .chat-main .isMod .username:visited
+{
+    color: #E6A21C !important;
+}
+ 
+#chat .chat-main .isVip .username,
+#chat .chat-main .isVip .username:hover,
+#chat .chat-main .isVip .username:visited
+{
+    color: #27A196 !important;
+}
