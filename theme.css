@@ -1,36 +1,93 @@
-/* Color Names */
- 
+/* Role Colors */
+
 #chat .chat-main .isOwner .username,
 #chat .chat-main .isOwner .username:hover,
 #chat .chat-main .isOwner .username:visited
 {
     color: #8E0000 !important;
 }
- 
+
 #chat .chat-main .isCo-owner .username,
 #chat .chat-main .isCo-owner .username:hover,
 #chat .chat-main .isCo-owner .username:visited
 {
     color: #8E0000 !important;
 }
- 
+
 #chat .chat-main .isManager .username,
 #chat .chat-main .isManager .username:hover,
 #chat .chat-main .isManager .username:visited
 {
-    color: #C11B17 !important;
+    color: #FF0000 !important;
 }
- 
+
 #chat .chat-main .isMod .username,
 #chat .chat-main .isMod .username:hover,
 #chat .chat-main .isMod .username:visited
 {
     color: #E6A21C !important;
 }
- 
+
 #chat .chat-main .isVip .username,
 #chat .chat-main .isVip .username:hover,
 #chat .chat-main .isVip .username:visited
 {
     color: #27A196 !important;
+}
+
+#chat .chat-main .isResident-dj .username,
+#chat .chat-main .isResident-dj .username:hover,
+#chat .chat-main .isResident-dj .username:visited
+{
+    color: #D82EE2 !important;
+}
+
+/* Role Icons */
+
+#chat .chat-main .isOwner .username::before
+{
+    content:       url(http://i.imgur.com/yyEu27I.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isCo-owner .username::before
+{
+    content:       url(http://i.imgur.com/yyEu27I.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isManager .username::before
+{
+    content:       url(http://i.imgur.com/VXdo9sb.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isMod .username::before
+{
+    content:       url(http://i.imgur.com/gIIznnY.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isVip .username::before
+{
+    content:       url(http://i.imgur.com/fl5hgyE.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
+}
+
+#chat .chat-main .isResident-dj .username::before
+{
+    content:       url(http://i.imgur.com/ClXhzOf.png);
+    position:      relative;
+    top:           4px;
+    padding-right: 5px;
 }
